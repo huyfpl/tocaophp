@@ -1,0 +1,134 @@
+body {
+	font-family: 'Varela Round', sans-serif;
+}
+.modal-login {		
+	margin: auto;
+	color: #636363;
+	width: 350px;
+	align-content: center;
+	align-items: center;
+	
+}
+.modal-login .modal-content {
+	padding: 20px;
+	border-radius: 5px;
+	border: none;
+}
+.modal-login .modal-header {
+	border-bottom: none;   
+	position: relative;
+	justify-content: center;
+}
+.modal-login h4 {
+	text-align: center;
+	font-size: 26px;
+	margin: 30px 0 -15px;
+}
+.modal-login .form-control:focus {
+	border-color: #70c5c0;
+}
+.modal-login .form-control, .modal-login .btn {
+	min-height: 40px;
+	border-radius: 3px; 
+}
+.modal-login .close {
+	position: absolute;
+	top: -5px;
+	right: -5px;
+}	
+.modal-login .modal-footer {
+	background: #ecf0f1;
+	border-color: #dee4e7;
+	text-align: center;
+	justify-content: center;
+	margin: 0 -20px -20px;
+	border-radius: 5px;
+	font-size: 13px;
+}
+.modal-login .modal-footer a {
+	color: #999;
+}		
+.modal-login .avatar {
+	
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: -70px;
+	width: 95px;
+	height: 95px;
+	border-radius: 50%;
+	z-index: 9;
+	background: #60c7c1;
+	padding: 15px;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+	
+}
+.modal-login .avatar img {
+	width: 100%;
+	text-align: center;
+	align-items: center;
+	margin-top: 10px;
+
+}
+.modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    min-height: calc(100% - 1rem);
+}
+
+.modal-login.modal-dialog {
+	margin-top: 80px;
+}
+.modal-login .btn, .modal-login .btn:active {
+	color: #fff;
+	border-radius: 4px;
+	background: #60c7c1 !important;
+	text-decoration: none;
+	transition: all 0.4s;
+	line-height: normal;
+	border: none;
+}
+.modal-login .btn:hover, .modal-login .btn:focus {
+	background: #45aba6 !important;
+	outline: none;
+}
+.trigger-btn {
+	display: inline-block;
+	margin: 100px auto;
+}
+
+.table__head{
+	color: #FFF;
+	font-weight: 700;
+	background: #9b4085;
+	background: -moz-linear-gradient(-45deg, #9b4085 0%, #608590 100%);
+	background: -webkit-linear-gradient(-45deg, #9b4085 0%,#608590 100%);
+	background: linear-gradient(135deg, #9b4085 0%,#608590 100%);
+	white-space: nowrap;
+	}
+	.table-bordered td, .table-bordered th{
+	border: 0px solid #FFF;
+	}
+	.winner__table{
+		white-space: nowrap;
+	}
+	
+	@media screen and (max-width: 567px) {
+	
+		.winner__table{
+		font-size: 12px;
+		}
+		.coin {
+		width:15%;
+		margin-left:2px;
+		}
+	}
+	@media (max-width: 767px) {
+		.modal-login .modal-dialog {
+		  margin: 0 auto;
+		  float: none;
+		  left: 50%;
+		  transform: translateX(-50%);
+		}
+	  }
